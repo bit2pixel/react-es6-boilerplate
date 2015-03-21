@@ -5,4 +5,4 @@ bootstrap:
 	npm install
 
 build:
-	npm build
+	npm run build

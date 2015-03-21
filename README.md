@@ -19,6 +19,11 @@ make bootstrap
 make run
 ```
 
-This is a work in progress. Missing features are
-+ [ ] Build process for app
-+ [ ] A bit nicer UI for the demo app
+To build the project simply run
+```
+npm run build
+```
+or with Makefile
+```
+make build
+```
