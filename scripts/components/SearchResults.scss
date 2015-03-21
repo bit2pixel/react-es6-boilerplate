@@ -1,0 +1,46 @@
+@import '../variables.scss';
+
+.SearchResults {
+  position: absolute;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 340px;
+  background-color: white;
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: none;
+}
+
+.SearchResultsMin {
+	max-height: 90vh;
+  padding-top: 5px;
+  margin-top: -5px;
+  margin-left: 1px;
+}
+
+.SearchResults__result {
+	padding: 12px 15px 12px 35px;
+	border-top: 1px dashed rgba(245,140,92,0.3);
+	text-align: left;
+	cursor: pointer;
+	color: $color-black;
+	font-size: 0.9em;
+  overflow: hidden;
+
+	&:hover {
+		background-color: rgba(245,140,92,0.2);
+	}
+}
+
+.SearchResults__result--active {
+	background-color: rgba(245,140,92,0.2);
+}
+
+.SearchResults__result__name {
+}
+
+.SearchResults__result__airport {
+	color: $color-orange;
+}
