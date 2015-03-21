@@ -20,6 +20,7 @@
     "babel-core": "^4.0.1",
     "babel-loader": "^4.0.0",
     "css-loader": "^0.9.1",
+    "eslint": "^0.17.1",
     "jsx-loader": "^0.12.2",
     "normalize.css": "^3.0.2",
     "react-hot-loader": "^1.1.1",
