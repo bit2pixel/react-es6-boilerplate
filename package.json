@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "react-es6-boilerplate",
   "version": "0.0.1",
-  "description": "React boilerplate using webpack, babel and flummox",
+  "description": "React boilerplate using webpack with ImmutableJS, babel and flummox",
   "scripts": {
     "start": "node webpack-server.js",
     "build": "NODE_ENV=production webpack -p --progress scripts/index.jsx bundle.js"
