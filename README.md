@@ -8,22 +8,26 @@ This boilerplate uses
 + Webpack with React hot loader
 + ESlint
 
-To run this server do the following
+###Npm instructions
 ```
 npm install
 npm start
 ```
-If you like Makefiles
+Navigate to localhost:3000
+####Building
+```
+npm run build
+```
+###Makefile instructions
 ```
 make bootstrap
 make run
 ```
-
-To build the project simply run
-```
-npm run build
-```
-or with Makefile
+Navigate to localhost:3000
+####Building
 ```
 make build
 ```
+
+#WIP
++ [ ] Build process for CSS
